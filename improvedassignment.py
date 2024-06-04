@@ -1,7 +1,7 @@
 import csv
 import random
 
-from assignments import make_top_rooms, make_proam_rooms, make_random_rooms, make_fcfs_rooms
+from assignmodes import make_top_rooms, make_proam_rooms, make_random_rooms, make_fcfs_rooms
 
 class Participant:
     def __init__(self, name, languages, level, is_speaker, has_priority, team_name):
